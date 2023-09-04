@@ -1,4 +1,5 @@
 "use client";
+import ServerComponent from "@/components/ServerComponent";
 import Donation from "../components/donation";
 import Form from "../components/form";
 import Name from "../components/name";
@@ -10,6 +11,7 @@ export default function Home() {
         <Name />
         <Form />
         <Donation />
+        <ServerComponent />
       </Stack>
     </Container>
   );
